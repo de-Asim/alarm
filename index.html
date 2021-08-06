@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm</title>
+</head>
+
+<body>
+    <div id="header">
+        <img class="logo" src="Untitled.png" alt="">
+        <p class="logoname">Asim Alarm</p>
+        </div>
+    <div id="navBar"></div>
+    <div id="container">
+        <div id="timeInput">
+            <input type="number" class="inputBox" id="hourInputBox">
+            <input type="number" class="inputBox" id="minuteInputBox">
+            <select name="" class='inputBox' id="ampm">
+                <option value="am">AM</option>
+                <option value="pm">PM</option>
+            </select>
+            <button id="set">Set</button>
+        </div>
+        <div id="timeOutput">
+        </div>
+    </div>
+    <audio id="myAudio">
+        <!-- <source src="horse.ogg" type="audio/ogg"> -->
+        <source src="alarm_classic.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+<script src="index.js"></script>
+
+</html>
